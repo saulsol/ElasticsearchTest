@@ -1,0 +1,16 @@
+cluster.name: cluster1
+node.name: node-2
+http.port: 9201
+transport.port: 9301
+
+
+path.data: /Users/olatte/nospoon/elastic/cluster2/data
+path.logs: /Users/olatte/nospoon/elastic/cluster2/logs
+
+
+network.host: 127.0.0.1
+discovery.seed_hosts: ["127.0.0.1:9300", "127.0.0.1:9301", "127.0.0.1:9302"]
+cluster.initial_master_nodes: ["node-1", "node-2", "node-3"]
+
+
+// 두 개의 클러스터가 같은 보안 설정 값을 가져야 한다.(cert 폴더)
