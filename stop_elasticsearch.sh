@@ -15,8 +15,8 @@ fi
 
 
 APP_PATH_2="/Users/imsol/nospoon/elastic/cluster2/elasticsearch-8.1.3/bin/"
-APP_PORT_2="9201"
-APP_NAME_2="node2"
+APP_PORT_2="9204"
+APP_NAME_2="node5"
 
 if [ -f ${APP_PATH_2}${APP_PORT_2}.pid ]; then
         PID=$(cat ${APP_PATH_2}${APP_PORT_2}.pid)
